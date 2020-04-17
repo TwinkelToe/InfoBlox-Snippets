@@ -3,7 +3,7 @@
 #VAR
 $a_record_to_remove = "FQDN"
 $credential = Get-Credential
-$commit_changes = $false #Commit changes? Functions as otherwise functions as -whatif
+$commit_changes = $false #Commit changes? Otherwise functions as -whatif
 
 #$password = ConvertTo-SecureString “PlainTextPassword” -AsPlainText -Force
 #$credential = New-Object System.Management.Automation.PSCredential (“username”, $password)
